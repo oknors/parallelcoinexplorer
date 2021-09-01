@@ -1097,7 +1097,7 @@ class Renderer {
 	}
 }
 
-// @ts-ignore - value will be replaced on build step
+// @ts-expect-error - value will be replaced on build step
 
 /** @param {{
  *   paths: {
