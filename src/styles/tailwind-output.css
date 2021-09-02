@@ -708,6 +708,9 @@ video {
 .h-8 {
 	height: 2rem;
 }
+.h-screen {
+	height: 100vh;
+}
 .min-h-screen {
 	min-height: 100vh;
 }
@@ -725,6 +728,9 @@ video {
 }
 .w-8 {
 	width: 2rem;
+}
+.w-screen {
+	width: 100vw;
 }
 .min-w-min {
 	min-width: -webkit-min-content;
@@ -843,6 +849,21 @@ video {
 }
 .bg-opacity-50 {
 	--tw-bg-opacity: 0.5;
+}
+.bg-opacity-40 {
+	--tw-bg-opacity: 0.4;
+}
+.bg-grunge {
+	background-image: url('https://s.okno.rs/img/grunge.png');
+}
+.bg-cover {
+	background-size: cover;
+}
+.bg-center {
+	background-position: center;
+}
+.bg-no-repeat {
+	background-repeat: no-repeat;
 }
 .fill-current {
 	fill: currentColor;
@@ -963,6 +984,15 @@ video {
 .antialiased {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+.opacity-40 {
+	opacity: 0.4;
+}
+.opacity-10 {
+	opacity: 0.1;
+}
+.opacity-20 {
+	opacity: 0.2;
 }
 .filter {
 	filter: var(--tw-filter);

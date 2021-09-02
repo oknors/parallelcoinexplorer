@@ -17,13 +17,12 @@
     "wrangler:preview": "wrangler preview --watch"
   },
   "dependencies": {
-    "@ampproject/toolbox-optimizer-express": "^2.8.3",
     "@cloudflare/wrangler": "^1.19.1",
+    "@sveltejs/adapter-cloudflare-workers": "1.0.0-next.20",
     "@tailwindcss/typography": "^0.4.1",
     "postcss": "^8.3.6"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.17",
     "@sveltejs/kit": "^1.0.0-next.155",
     "autoprefixer": "^10.3.2",
     "concurrently": "^6.2.1",
@@ -31,8 +30,10 @@
     "express": "^4.17.1",
     "postcss-cli": "^8.3.1",
     "svelte": "^3.42.2",
-    "svelte-dark-mode": "^1.0.0",
     "tailwindcss": "^2.2.7"
+  },
+  "engines": {
+    "node": ">=0.10.3 <15"
   },
   "type": "module"
 }

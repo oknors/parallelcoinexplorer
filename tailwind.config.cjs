@@ -66,7 +66,11 @@ module.exports = {
       'title': ['plan9regular', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       'mono': ['gomono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'grunge': "url('https://s.okno.rs/img/grunge.png')",
+      })
+    }
   },
   variants: {
     extend: {

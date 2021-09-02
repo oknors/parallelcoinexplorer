@@ -1,16 +1,6 @@
     <div class="bg">
-        <div class="grunge">
-            <amp-video width="720" height="405" src="https://s.okno.rs/video/grunge.mp4" poster="https://s.okno.rs/parallelcoin/img/bg.jpg" layout="responsive" controls autoplay loop muted class="grunge__video">
-                <div fallback>
-                    <p>Your browser doesn't support HTML5 video.</p>
-                </div>
-                <source type="video/mp4" src="https://s.okno.rs/video/grunge.mp4">
-                <source type="video/webm" src="https://s.okno.rs/video/grunge.webm">
-            </amp-video>
-
-
-        </div>
         <div class="space"></div>
+        <div class="w-screen h-screen bg-grunge bg-center bg-no-repeat bg-cover opacity-20"></div>
     </div>
 <style>
     .bg{
@@ -25,23 +15,6 @@
         filter: none;
     }
 
-    .grunge{
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    .grunge .grunge__video{
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        transform: scale(1.1);
-        pointer-events: none;
-        opacity: 0.1;
-    }
 
     .space {
         position:fixed;

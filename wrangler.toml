@@ -1,9 +1,9 @@
 name = "parallelcoinexplorer"
 type = "webpack"
-route = ''
 account_id = '6f4924137f40d1ae80786e8a115d2e64'
-zone_id = ''
+zone_id = '9d69edeee41717095b6f44f1ff6e26d9'
+route = "explorer.parallelcoin.info/*"
 usage_model = ''
 compatibility_flags = []
 workers_dev = true
-site = {bucket = "./build",entry-point = "workers-site"}
+site = {bucket = "./build",entry-point = "./workers-site"}
